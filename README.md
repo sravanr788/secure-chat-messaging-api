@@ -66,3 +66,16 @@ http://localhost:3003
 
 For simplicity (as per assessment scope), the application uses in-memory storage.
 In a real production setup, this would be replaced with persistent storage (e.g., MongoDB or PostgreSQL) along with Redis for session/token management.
+
+
+
+## 🚀 Deployment
+
+The application is deployed on Railway.
+
+Railway was chosen because this project runs a persistent Node.js server with WebSocket support. Platforms like Vercel or Netlify are primarily serverless and do not handle long-lived WebSocket connections reliably. Railway allows the Express server and WebSocket server to run together as intended.
+
+[Live Link](https://chat-api-production-ba1c.up.railway.app/)
+
+
+
