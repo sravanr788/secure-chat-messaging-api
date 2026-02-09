@@ -71,11 +71,11 @@ In a real production setup, this would be replaced with persistent storage (e.g.
 
 ## 🚀 Deployment
 
-The application is deployed on Railway.
+The application is deployed on Render.
 
-Railway was chosen because this project runs a persistent Node.js server with WebSocket support. Platforms like Vercel or Netlify are primarily serverless and do not handle long-lived WebSocket connections reliably. Railway allows the Express server and WebSocket server to run together as intended.
+Render was chosen because this project runs a persistent Node.js server with WebSocket support. Platforms like Vercel or Netlify are primarily serverless and do not handle long-lived WebSocket connections reliably. Render allows the Express server and WebSocket server to run together as intended.
 
-[Live Link](https://chat-api-production-ba1c.up.railway.app/)
+[Live Link](https://secure-chat-messaging-api.onrender.com)
 
 
 
